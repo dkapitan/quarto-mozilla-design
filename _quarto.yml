@@ -3,16 +3,27 @@ project:
 
 website:
   title: "@kapitan"
+  reader-mode: true
+  search:
+    location: navbar
+    type: textbox
   navbar:
-    logo: images/logo-150px.png
     title: false
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
-  search:
-    location: navbar
-    type: textbox
+      - href: docs/projects/index.qmd
+        text: "Projects"
+      - docs/about.qmd
+  sidebar:
+    - title: "Projects"
+      logo: images/logo-150px.png
+      style: "docked"
+      background: light
+      contents:
+        - docs/projects/project-1.qmd
+        - docs/projects/project-2.qmd
+
 
 format:
   html:

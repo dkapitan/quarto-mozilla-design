@@ -1,5 +1,6 @@
 ---
 title: "About"
+sidebar: false
 ---
 
 > _As a data scientist, AI expert, architect, advisor, lecturer and mentor, I help people and organizations master data and AI in different roles, ultimately to create sustainable change with digital technologies._

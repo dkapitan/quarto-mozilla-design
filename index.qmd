@@ -1,21 +1,12 @@
 ---
-title: "Mastering data and AI"
+title: "Hello, I am Daniel Kapitan."
+sidebar: false
 ---
 
-::: {.content-container}
-::: {.top-story}
-<a href="posts/some-post.qmd">
+I am a data scientist and AI advisor focused on helping organizations leverage the power of machine learning to make data-driven decisions that drive growth and profitability.
 
-::: grid
-::: {.g-col-12 .g-col-lg-4 .top-story-text}
-## The many ‘dialects’ of data visualization: Alberto Cairo and ‘The Art of Insight’
-In his upcoming new book, journalist and designer Alberto Cairo explores the idea of 'data visualization as language', one with many different dialects -- statistical, journalistic, artistic, and so on. What might they learn from each other? 
-:::
-::: {.g-col-12 .g-col-lg-8 .top-story-img}
-![](images/functional-data-engineering.png)
-:::
-:::
-</a>
+As a consultant, my approach is centered on delivering measurable results by developing customized solutions that meet the specific needs and goals of your organization. With my expertise in machine learning, I can help you extract valuable insights from your data that can inform strategic decisions, optimize operations, and identify new opportunities for growth.
 
-:::
-:::
+I work with organizations of all sizes and across a variety of industries, and I pride myself on my collaborative and client-focused approach. I believe that success is achieved through close collaboration, and I work closely with my clients to ensure that we achieve the best possible results together.
+
+Whether you are looking to implement machine learning for the first time or seeking to take your data analytics to the next level, I am here to help. Contact me today to learn more about how I can help your organization harness the power of machine learning and AI to achieve your strategic objectives.

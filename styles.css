@@ -3,11 +3,9 @@
 /*-- navbar --*/
 
 .navbar {
-    padding-top: 0;
-    padding-bottom: 0;
     font-family: "Zilla Slab";
   }
-  
+/*   
   .navbar-brand.navbar-brand-logo {
     display: flex;
     padding-top: 0;
@@ -84,49 +82,3 @@
     border: 0;
   }
 
-/*-- homepage styles --*/
-
-.content-container {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-  
-  .content-container .listing-pagination {
-    display: none;
-  }
-  
-  .top-story {
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-bottom: 1em; 
-    box-sizing: border-box;
-    height: auto;
-    display: flex;
-    align-items: center;
-  }
-  
-  .top-story img {
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  
-  .top-story-text {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 0;
-  }
-  
-  .top-story-text h2 {
-    margin-top: 1.5rem;
-  }
-  
-  .top-story-img p {
-    margin-bottom: 0;
-  }
-
-
-/* own hacks */
-.quarto-navbar-tools {
-    text-align: basline;
-}

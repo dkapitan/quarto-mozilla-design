@@ -32,15 +32,16 @@ $light-grey: #e7e5e2;
 $link-color: $warm-red;
 
 // navbar https://quarto.org/docs/output-formats/html-themes.html#navigation
-$navbar-bg: $warm-red;
-$navbar-fg: $light-grey;
+$navbar-bg: $white;
+$navbar-fg: $dark-grey;
 $navbar-hl: $black;
+$sidebar-bg: $white;
 
 // Base layout
 // https://getbootstrap.com/docs/5.1/components/navbar/#containers
 
-// $spacer: 1rem;
-// $navbar-padding-y: null;
-// $navbar-padding-x: null;
+$spacer: 1rem;
+$navbar-padding-y: $spacer * 1.5;
+$navbar-padding-x: null;
 
 
