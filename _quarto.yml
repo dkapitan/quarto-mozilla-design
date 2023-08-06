@@ -4,10 +4,15 @@ project:
 website:
   title: "@kapitan"
   navbar:
+    logo: images/logo-150px.png
+    title: false
     right:
       - href: index.qmd
         text: Home
       - about.qmd
+  search:
+    location: navbar
+    type: textbox
 
 format:
   html:

@@ -2,6 +2,20 @@
 title: "Mastering data and AI"
 ---
 
-This is a Quarto website.
+::: {.content-container}
+::: {.top-story}
+<a href="posts/some-post.qmd">
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: grid
+::: {.g-col-12 .g-col-lg-4 .top-story-text}
+## The many ‘dialects’ of data visualization: Alberto Cairo and ‘The Art of Insight’
+In his upcoming new book, journalist and designer Alberto Cairo explores the idea of 'data visualization as language', one with many different dialects -- statistical, journalistic, artistic, and so on. What might they learn from each other? 
+:::
+::: {.g-col-12 .g-col-lg-8 .top-story-img}
+![](images/functional-data-engineering.png)
+:::
+:::
+</a>
+
+:::
+:::
