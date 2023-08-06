@@ -1,8 +1,18 @@
 ---
-title: "About"
+title: "About me"
+about:
+    template: broadside
+    image: ../images/profile.jpg
+    links:
+        - icon: github
+          text: Github
+          href: https://github.com/dkapitan
+        - icon: linkedin
+          text: LinkedIn
+          href: https://linkedin.com/in/dkapitan
 sidebar: false
+toc: false
 ---
-
 > _As a data scientist, AI expert, architect, advisor, lecturer and mentor, I help people and organizations master data and AI in different roles, ultimately to create sustainable change with digital technologies._
 
 Dr. Daniel Kapitan (1973) is a well-rounded data scientist and strategic advisor with years of experience in the field of data, machine learning and digital transformation. His knowledge can help companies to identify how to use AI, and how to integrate this into business processes, roles, and day-to-day operations. He aims to create sustainable change in organizations by systematically engineering data that is required for new AI applications.
