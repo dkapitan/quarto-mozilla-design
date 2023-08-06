@@ -3,35 +3,29 @@ project:
 
 website:
   title: "@kapitan"
-  reader-mode: false
   search:
     location: navbar
     type: textbox
   navbar:
     title: false
     logo: images/@kapitan-logo-redbrick-320x132.png
-    left:
-      # - href: index.qmd
-      #   text: Home
-      - href: docs/projects/index.qmd
-        text: "Projects"
-      - docs/about.qmd
+    pinned: true
     collapse-below: lg
   sidebar:
     - style: floating
-      search: true
+      collapse-level: 1
       background: light
       contents:
-        - text: "About me"
-          href: docs/about.qmd
         - section: "Services"
           contents:
             - docs/mentoring.qmd
             - docs/masterclasses.qmd
-        - section: docs/projects/index.qmd
+        - section: "Projects"
           contents:
             - docs/projects/project-1.qmd
             - docs/projects/project-2.qmd
+        - text: "About me"
+          href: docs/about.qmd
 
 
 format:
@@ -40,9 +34,6 @@ format:
       light:
         - flatly
         - mozilla.scss
-      # dark:
-      #   - darkly
-      #   - mozilla.scss
     css: styles.css
     toc: true
 

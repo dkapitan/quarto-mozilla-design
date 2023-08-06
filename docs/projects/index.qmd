@@ -1,6 +1,0 @@
----
-title: Projects
-navbar: false
----
-
-Introduction to projects
