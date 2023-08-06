@@ -1,0 +1,16 @@
+/* taken from https://github.com/realworlddatascience/realworlddatascience.github.io/blob/main/rwds.css */
+
+/*-- navbar --*/
+
+.navbar {
+    font-family: "Zilla Slab";
+  }
+  
+  .navbar-brand.navbar-brand-logo {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    margin-left: 1.5em;
+  }
+  
