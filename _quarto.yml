@@ -15,10 +15,12 @@ website:
       - href: docs/projects/index.qmd
         text: "Projects"
       - docs/about.qmd
+    collapse-below: md
   sidebar:
     - title: "Projects"
       logo: images/logo-150px.png
       style: "docked"
+      search: true
       background: light
       contents:
         - docs/projects/project-1.qmd
@@ -37,5 +39,5 @@ format:
     css: styles.css
     toc: true
 
-
-
+# filters:
+#   - nutshell
