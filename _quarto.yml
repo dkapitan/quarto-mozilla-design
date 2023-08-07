@@ -4,7 +4,7 @@ project:
 website:
   title: "@kapitan"
   search:
-    location: navbar
+    location: sidebar
     type: textbox
   navbar:
     title: false
@@ -12,22 +12,33 @@ website:
     pinned: true
     collapse-below: lg
   sidebar:
-    - style: floating
-      collapse-level: 1
-      background: light
-      contents:
-        - section: "Services"
-          contents:
-            - docs/mentoring.qmd
-            - docs/masterclasses.qmd
-        - section: "Projects"
-          contents:
-            - docs/projects/project-1.qmd
-            - docs/projects/project-2.qmd
-        - text: "Blog"
-          href: docs/blog/listing.qmd
-        - text: "About me"
-          href: docs/about.qmd
+    style: floating
+    tools:
+      - icon: calendar
+        href: https://calendar.app.google/hwXH1FmvDQQiBu7EA
+        text: "Book an appointment"
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dkapitan/
+        text: "LinkedIn profile"
+      - icon: github
+        href: https://github.com/dkapitan
+        text: "GitHub profile"
+
+    collapse-level: 1
+    background: light
+    contents:
+      - section: "Services"
+        contents:
+          - docs/mentoring.qmd
+          - docs/masterclasses.qmd
+      - section: "Projects"
+        contents:
+          - docs/projects/project-1.qmd
+          - docs/projects/project-2.qmd
+      - text: "Blog"
+        href: docs/blog/listing.qmd
+      - text: "About me"
+        href: docs/about.qmd
 
 
 format:
