@@ -13,6 +13,22 @@
 .quarto-secondary-nav {
     font-family: "Zilla Slab";
 }
+
+.sidebar-navigation .sidebar-item {
+    font-size: 1.2rem
+}
+
+div.quarto-post .body .listing-subtitle {
+    font-family: "Zilla Slab";
+    font-weight: 300;
+    font-size: .875em;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+}
+
+div.quarto-post .listing-description {
+    font-size: .875em;
+}
 /*   
   .navbar-brand.navbar-brand-logo {
     display: flex;

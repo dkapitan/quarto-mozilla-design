@@ -24,6 +24,8 @@ website:
           contents:
             - docs/projects/project-1.qmd
             - docs/projects/project-2.qmd
+        - text: "Blog"
+          href: docs/blog/listing.qmd
         - text: "About me"
           href: docs/about.qmd
 
